@@ -25,17 +25,9 @@ const ageMulBy2 = (person12: Persons[]) => {
     // here map function won't effect the intial array
     
 }
-//using filter
-const ageGreaterThan30 = (person12: Persons[]):Persons[] =>{
-    return person12.filter(people => people.age > 30)
-    // const newList : string[] = [];
-    // for( const i of person){
-    //     if(i.age > 30){
-    //         newList.push(i.name);
-    //     }
-    // }
-    // return newList;
 
+const ageGreaterThan30 = (person12: Persons[]):Persons[] =>{
+    return person12.filter(people => people.age > 30) ;
 }
 
 console.log("The persons whose age is less than 18")
