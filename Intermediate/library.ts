@@ -61,36 +61,4 @@
      library.addBook("The Mahabharata");
      library.searchBook("Mahabharata");
      library.printAvailableBooks();
-     
-     
-
-
-
-
-
-
-
-
-
-
-// interface Book{
-//     id : number ;
-//     title : string ;
-//     price : number ;
-//     author : string ;
-// }
-//  const book : Book[] = [];
-//  book.push({id:1,title:"book1",price:100,author:"x"});
-// class Library{
-//     id : number ;
-//     title : string ;
-//     price : number ;
-//     author : string ;
-//     constructor(id:number, title:string, price:number, author:string){
-//         this.id =id;
-//         this.title =title;
-//         this.price =price;
-//         this.author=author;
-//     }
     
-// }

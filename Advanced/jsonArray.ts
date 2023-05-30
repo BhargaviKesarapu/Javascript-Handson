@@ -40,19 +40,19 @@ const person : Person[] = [
   class Json{
 
     calculateToTalPersons(person : Person[]) : number{
-        let totalCount = 0;
+        let Count = 0;
         for(const i of person){
             if(typeof(i) == 'object' && i!= null){
-                totalCount++;
+                Count++;
 
                 // Array.isArray() is to check passed value is an array or not. it returns a boolean value
                 if(Array.isArray(i.children)){
-                    totalCount += this.calculateToTalPersons(i.children);
+                    Count += this.calculateToTalPersons(i.children);
                 }
             }
         }
 
-        return totalCount;
+        return Count;
     }
 
   }

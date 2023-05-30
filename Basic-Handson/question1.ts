@@ -2,7 +2,7 @@
        Implement a method called “Introduce” that prints out a greeting with the person’s name and age. */
 // using constructor with 2 objects
 
-class Person{
+class Person_details{
      name : string = "bhargavi" ;
      age : number = 22;
 
@@ -11,6 +11,6 @@ class Person{
         `);
      }
 }
-let obj = new Person();
+let obj = new Person_details();
 obj.introduce();
 
